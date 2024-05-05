@@ -1,0 +1,80 @@
+body {
+    height: 100%;
+    margin: 0%;
+    background-size:cover;
+    background-image: url(bgpic.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#div1 {
+    background-color:#ff640acc;
+    position: absolute;
+    width: 35%;
+    height: 80%;
+    left: 5%;
+    margin-top: 5%;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    text-align: center;
+}
+
+#div2 {
+    background-color: rgb(154, 205, 50, 0.8);
+    position: absolute;
+    height: 80%;
+    width: 55%;
+    left: 40%;
+    margin-top: 5%;
+
+    text-align: center;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+}
+
+
+
+button.uni {
+ 
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button.uni:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+img.clogo {
+    max-width: 30%;  
+    height: auto;  
+}
+
+input.loginbox {
+    background-color: #ff650c;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 50%;
+    padding: 5px;
+    
+  }
+
+  
+
+
+
+input.loginbox:hover {
+    background-color: lightblue;
+  }

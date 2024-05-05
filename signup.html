@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="sustyle.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+
+
+      
+        <div id="div1">
+			<br>
+            <h1>Mabuhay Kalookan</h1>
+            <h3>Sign-up Your Account</h3>
+			<img src="Caloocan_City.png" id="clogo">
+			<br>
+			<br>
+			<br>
+			<center><table id="signup" border="1">
+            <form id="signup">
+				<tr>
+				<td>
+                <label for="username">Username</label><br>
+                <input type="text" class="sform" name="un"><br>
+				<label for="username">Password</label><br>
+                <input type="password" class="sform" name="un"><br>
+				<label for="username">E-mail Address</label><br>
+				<input type="text" class="sform" name="un"><br>
+				<label for="username">Phone Number</label><br>
+				<input type="password" class="sform" name="un"><br>
+				<br>
+									<label for="username">Barangay</label><br>
+					<input type="text" class="sform" name="un"><br>
+					<br>
+				<label for="username">Last Name</label><br>
+                <input type="text" class="sform" name="un"><br>
+				<label for="username">First Name</label><br>
+                <input type="text" class="sform" name="un"><br>
+				<label for="username">Middle Name</label><br>
+                <input type="text" class="sform" name="un"><br><br>
+				<label for="birthday">Birthday:</label><br>
+				<input type="date" class="sform" name="birthday">
+				</td>
+					<td>
+						<center>
+						<h1>Data Protection Policy</h1>
+
+							<p>We are aware of our responsibility to protect your personal data. We act in accordance with the principles introduced by applicable legal regulations and the general principle on good faith in the processing of personal data.</p>
+							
+							<p>We determine clearly and precisely its legitimate and lawful purpose for processing personal data and process personal data to the extent necessary and in connection with the products and services we offer.</p>
+							
+							<p>We transfer your personal data in compliance with applicable laws and only when it is necessary. We take required technical and administrative measures to protect uyour personal data and also we ensure that Data Processors take administrative and technical measures regarding data security by signing non-disclosure agreements.<p></p>
+							<input type="checkbox" id="agr" name="agree" value="agreement">
+							<label for="agr">I agree and understand</label><br>
+							<br>
+							<button type="button" class="reg">Register</button>
+						</center>
+							
+					</td>
+					
+	
+				
+
+
+            </tr>
+				
+            </form></center></table>
+              <br>
+             
+			 <!--
+			  <button type="button">Log In</button>
+              <button type="button">Sign Up</button>
+			-->
+
+            </div>
+
+            
+
+        
+      
+        <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+    </form></body></html>
